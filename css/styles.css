@@ -1,0 +1,213 @@
+#title{
+
+  background-color: #87bba2;
+  color:#364958;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+
+h2 {
+
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+h3{
+
+  font-family: "Montserrat-Bold";
+}
+
+p{
+
+  color:#364958;
+  text-align: center;
+}
+
+.container-fluid {
+
+ padding: 2% 10% 2%;
+
+}
+
+/* NavBar */
+.navbar {
+  padding:0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 10px;
+  align-items:left;
+}
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+  color: #364958;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color:#364958;
+}
+
+#navbarTogglerDemo01{
+
+  text-align: right;
+}
+
+.download-button {
+
+  margin:5% 3% 5% 0;
+}
+
+/*title-image*/
+
+.title-img{
+
+width: 85%;
+height:80%;
+margin-left: 25px;
+margin-right: 2px;
+margin-top: 15px;
+border-radius: 5%;
+
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1
+}
+
+.feature-box {
+
+  text-align: center;
+  padding: 4%;
+}
+
+.icon{
+    color:#87bba2;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+
+  color:#3b6064;
+}
+
+/* Testimonial Sections */
+
+#testimonials {
+
+  text-align: center;
+  background-color:  #c9e4ca;
+  color:#364958;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+#press {
+  background-color:#c9e4ca;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+
+/*pricing section */
+
+#pricing{
+
+   padding:100px;
+   text-align: center;
+}
+
+.pricing-column{
+
+  padding:3% 2%;
+
+}
+
+/*CTA Section */
+
+#cta{
+
+  background-color: #87bba2;
+  color: #364958;
+  padding: 7% 15%;
+
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.btn-cta {
+
+  margin:5% 3% 5% 0;
+}
+
+/*footer section*/
+
+#footer {
+
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin:2.5% 2.5%;
+}
+.c-link {
+
+
+    color: black;
+    text-decoration: none;
+  }
+
+.c-link:hover
+{
+     color:#00A0C6;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+
+@media (max-width: 1028px)
+{
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    transform: rotate(0);
+    position: static;
+  }
+}
